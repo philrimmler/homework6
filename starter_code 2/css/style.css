@@ -44,15 +44,108 @@ Developer @GA in NYC
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+     background-color: #f0efef;
+}
+header{
+  background-color: #033048;
+}
+.mainheader{
+    color:white;
+    padding:0px 10px 30px 25px;
+    float:left;
+}
+ul{
+  padding-left:0px;
+  margin:20px;
+  font-size: 24px;
+}
+.headerlist1{
+  float:right;
+}
+.headerlist2{
+  display: inline-block;
+  color:#f9e42e;
+  padding:0px 20px 20px 20px;
+  font-weight:600em;
+
+}
+.maincontainer{
+  float:left;
+  width:760px;
+
+}
+h2{
+  font-size:40px;
+  font-weight:900;
+  color:#033048;
+}
+.readmore{
+  float:right;
+  color:#033048;
+  font-size: 24px;
+  font-weight:600;
+  border:none;
+  background-color: #f0efef;
+}
+aside{
+  float:right;
+  width:200px;
+}
+.categorieslist{
+margin: 0;
 }
 
-
+.catlist1{
+  list-style-type: none;
+  font-size: 16px;
+  font-weight:300;
+  color:#033048;
+  margin-top:0;
+}
+.aboutrelaxr{
+  clear:both;
+}
+h3{
+  color:#033048;
+  font-size: 24px;
+  font-weight: 900;
+}
+hr{
+  clear: both;
+}
+.learnmorebutton{
+  float:left;
+  color:#033048;
+  font-size:16px;
+  font-weight: 600;
+  background-color: #f0efef;
+  border:none;
+}
+.adunit{
+  clear:both;
+  text-align:center;
+  background-color: white;
+  height:600px;
+}
+.signupnowbutton{
+  text-align:center;
+  clear:both;
+  background-color: #f9e42e;
+  padding:20px;
+  margin-top:0;
+  font-size:24px;
+}
+.signup1{
+  background-color: #033048;
+  color: white;
+  border-color: #033048;
+  padding:10px 30px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -68,9 +161,26 @@ header {
 }
 
 footer {
-
+text-align: center;
+clear:both;
+background-color:#121212;
 }
-
+.footerlogo{
+  margin-top:0;
+  color: #f9e42e;
+  padding-top:20px;
+  padding-bottom: 30px;
+}
+.social{
+  padding-left:5px;
+  padding-right:5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.copyright{
+  color: white;
+  padding-bottom:10px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
